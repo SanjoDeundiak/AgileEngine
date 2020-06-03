@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  GridViewController.swift
 //  AgileEngine
 //
 //  Created by Oleksandr Deundiak on 03.06.2020.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class GridViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
