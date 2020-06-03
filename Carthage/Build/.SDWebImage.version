@@ -1,0 +1,13 @@
+{
+  "commitish" : "5.8.0",
+  "iOS" : [
+    {
+      "name" : "SDWebImageMapKit",
+      "hash" : "f9c8bdd01c2ec7faa95e54358fbfa0b9655282b172064e0fcd88bd570b84fcb4"
+    },
+    {
+      "name" : "SDWebImage",
+      "hash" : "4161435d1c32809586270ab57801fd74e970055dbd7cc14255b915d8532ed1fe"
+    }
+  ]
+}

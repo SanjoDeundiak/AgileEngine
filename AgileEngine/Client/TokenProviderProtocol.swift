@@ -1,5 +1,5 @@
 //
-//  TokenProvider.swift
+//  TokenProviderProtocol.swift
 //  AgileEngine
 //
 //  Created by Oleksandr Deundiak on 03.06.2020.
@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol TokenProvider {
-    
+protocol TokenProviderProtocol {
+    func getToken() throws -> String
 }

@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+struct ImagesPageModel: Decodable {
+    let pictures: [CroppedPictureModel]
+    let page: Int
+    let pageCount: Int
+    let hasMore: Bool
+    
+}

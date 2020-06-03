@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct AuthResponse: Decodable {
+    let auth: Bool
+    let token: String
+}

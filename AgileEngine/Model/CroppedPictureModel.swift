@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct CroppedPictureModel: Decodable {
+    let id: String
+    let croppedPicture: URL
+}

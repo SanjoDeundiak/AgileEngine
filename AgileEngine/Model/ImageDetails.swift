@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+struct ImageDetails: Decodable {
+    let id: String
+    let author: String
+    let camera: String
+    let tags: String
+    let croppedPicture: URL
+    let fullPicture: URL
+}

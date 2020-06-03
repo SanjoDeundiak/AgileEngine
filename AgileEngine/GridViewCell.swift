@@ -7,3 +7,8 @@
 //
 
 import Foundation
+import UIKit
+
+class GridViewCell: UICollectionViewCell {
+    @IBOutlet weak var imageView: UIImageView!
+}

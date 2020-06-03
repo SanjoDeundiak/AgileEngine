@@ -1,5 +1,5 @@
 //
-//  SharedClient.swift
+//  Shared.swift
 //  AgileEngine
 //
 //  Created by Oleksandr Deundiak on 03.06.2020.
@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+class Shared {
+    static let client = Client(tokenProvider: TokenProvider(baseClient: BaseClient()))
+}
